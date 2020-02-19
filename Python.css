@@ -1,0 +1,236 @@
+
+html,body{margin:0; padding:0;} 
+
+/*haut de page*/
+#banderole{height:300px;background-image: url(tech-test.jpg); background-repeat: no-repeat;  background-position: center; margin-bottom:0px;}
+
+#alignetexte{padding-top:40px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+#alignetexte p{color:white; font-size:400%;font-family: 'Playfair Display', serif;}
+
+.menu{display:inline-block; }
+.menu:hover{display:inline-block; }
+
+/*la barre des menu avec les onglets */
+#menu li>a{display:inline-block;text-decoration: none; color:white;font-family: 'Playfair Display', serif; padding-right:40px;padding-left: 40px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 10px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+#menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:40px;padding-left: 40px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+#menu{background-color:#074685; margin:0 0;margin-top:5px;height:35px;overflow: hidden; padding-top:10px;padding-bottom:45px}
+/*le bas de page */
+#bas{background-color:black;height:200px;}
+#bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
+#bas>div li {color:white;font-size:12px; font-family:'Playfair Display', serif;list-style-type: none;padding-bottom: 15px;}
+#bas>div>ul{padding:0px; margin-bottom:0px;}
+#logoc{width:80px;height:80px;float:right;margin-top:-120px; opacity: 0.5;}
+#réseausoc{width:25px;height:25px;}
+
+
+/* le début de la page avec l'ensemble des compétences triées par famille */
+#compétences{width:80%; margin:0 auto;}
+#développement{float:left;width:50%;}
+#infrastructure{width:50%;float:right;}
+#développement p{color:white;font-size:300%;font-family: 'Playfair Display', serif;}
+#infrastructure p{color:white;font-size:300%;font-family: 'Playfair Display', serif;}
+.carré{float:left; width:220px;height:220px; margin-bottom:30px;margin-right:30px;background-color: #074685;text-align:center;}
+.carré:hover{float:left; width:220px;height:220px; margin-bottom:30px;margin-right:30px;background-color: #6171ff;text-align:center;}
+.colonne{background-color:#074685;width: 90%;text-align: center;}
+/*ensemble des logos des compétences*/
+#linux{width:6em;height:7.8em;margin:40px 0px 40px 10%;}
+#python{width:6em;height:6em;margin:40px 0px 40px 0px;}
+#logol{width:6em;height:7.8em;margin:40px 0px 40px 10%;}
+#réseaux{width:200px;height: 111.96px;margin:30px 0px 40px 10%;}
+#php{width:8em;height:6em;margin:40px 0px 40px 10%;}
+#html5{width:7em;height:7.5em;margin:40px 0px 40px 10%;}
+#css3{width:5.5em;height:7.5em;margin:40px 0px 40px 10%;}
+#sql{width:9em;height:6em;margin:40px 0px 40px 10%;}
+
+.separation{height: 50px; opacity:0;}
+/*fond bleu uni */
+.contenu{margin:0 auto; width:70%;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; background-color:#074685;padding-top: 100px;}
+/*banderole contenant le titre et le logo de la section python*/
+#logoP{max-width: 30%;height: auto;margin:40px 0px 40px 0px;float:left;}
+.intercalaire {width:100%;background-color:#074685;  box-shadow: 0px -3px 15px #074685,0px 2px 15px #074685;}
+/*début de la page python*/
+#titre{width:20%; margin-left: auto;margin-right: auto ;}
+#h2{color:white;font-family: 'Roboto', sans-serif;font-size:20px;margin-left:10px;}
+#titre>h1{color:white; font-family:'Playfair Display', serif;font-size:400%; letter-spacing:100% ; text-decoration:underline;float:right; display:block; }
+/*disposition des images et des texte de la section python*/
+
+.tedroite{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:right;color:white;}
+.tedroite a {color:white;}
+.imgauche{float:left;margin-bottom:15px;width:45%;position:relative;z-index: 1;  }
+.tegauche{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:left;padding-top:50px;color:white;}
+.tegauche a {color:white;}
+.imdroite{float:right;margin-bottom:15px;width:45%;position:relative;z-index: 1;}
+.imdroite img{float:right;}
+#droite{padding-top:50px;}
+#mémo{width: 300px; height:172.683px; border:solid 10px orange;}
+/*quand la souris passe sur l'image du mémory*/
+#mémo:hover{width:400px;height:230.244px;margin-bottom:15px; border:solid 10px orange;}
+#chasse-taupe{width:300px;height:219.4px;margin-bottom:15px; border:solid 10px orange;}
+/*quand la souris passe sur l'image du chasse taupe*/
+#chasse-taupe:hover{width:400px;height:292.32px;margin-bottom:15px; border:solid 10px orange;}
+/*quand la souris passe sur l'image du pierre feuille ciseaux*/
+#pfc:hover{width:400px;height:212.53px;margin-bottom:15px; border:solid 10px orange;}
+#pfc{width:300px;height:159.4px;margin-bottom:15px; border:solid 10px orange;}
+.clear{clear:both;}
+#pac{width:300px;height:261.43px;margin-bottom:15px; border:solid 10px orange;}
+/*quand la souris passe sur l'image du pacman*/
+#pac:hover{width:400px;height:348.57px;margin-bottom:15px;float:left; border:solid 10px orange;}
+#fond{background: linear-gradient(to bottom right, white, #6171ff);padding-top: 50px;}
+/*on annule le zoom quand la page est trop petite */
+@media all and (max-width: 1100px){
+  #mémo:hover {width: 300px; height:172.683px;}
+  #chasse-taupe:hover{width:300px;height:219.4px;margin-bottom:15px;}
+  #pfc:hover{width:300px;height:159.4px;margin-bottom:15px;}
+  #pac:hover{width:300px;height:261.43px;margin-bottom:15px;}
+}
+
+/*banderole de la section réseaux*/
+#titrer{width: 45%;margin:0 auto;}
+#titrer>h1{color:white; font-family:'Playfair Display', serif;font-size:60px; letter-spacing:5px; text-decoration:underline;float:right;display:block;margin:40px 15% 40px 0;}
+.action{padding-top:100px;}
+/*texte des trois paragraphes*/
+.action p{text-align: center;color:white;font-family: 'Roboto', sans-serif;font-size:16px;width:70%;display:block;margin: 0 auto 0 auto;}
+/*images des trois paragraphes*/
+#ethernet{width: 250px; height:80.19px;float:left;padding-top:50px;}
+#fibre{width: 250px; height:58.88px;float:left;padding-top:70px;}
+#wifi{width:250px;height:160.36px;padding-top:40px;margin-bottom:15px;float:left;}
+.pc{width: 150px; height:110.5px;float:right;margin-top:-60px;position:relative;z-index: 1;}
+#routeur{width:200px;height: 111.96px;margin:30px 0px 40px 10%;}
+#contenu div div{width:40%;display:inline-block;}
+/*animation des images */
+.chargement{height:18.48px;width:100px;}
+.clear{clear:both;}
+.A{padding-top:110px;animation-duration: 3s;animation-name: chargement1;animation-iteration-count: infinite;}
+.B{padding-top:100px;animation-duration: 0.25s;animation-name: chargement2;animation-iteration-count: infinite;}
+.C{padding-top:100px;animation-duration: 2s;animation-name: chargement3;animation-iteration-count: infinite;}
+@keyframes chargement1 {
+  from {
+    display:none;
+    margin-left: 1%; 
+  }
+  to {
+      display:inline-block;
+    margin-left: 60%;
+  }
+}
+@keyframes chargement2 {
+  from {
+    display:none;
+    margin-left: 1%; 
+  }
+
+  to {
+      display:inline-block;
+      margin-left: 60%;
+  }
+}
+@keyframes chargement3 {
+  from {
+    display:none;
+    margin-left: 2%; 
+  }
+
+  to {
+      display:inline-block;
+    margin-left: 60%;
+  }
+}
+
+
+/*contenu de la section linux */
+#contenu{width: 70%; margin:0 auto;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685;background-color:#074685;border-top:white 2px solid;border-bottom:white 2px solid;}
+#terminal{width:200px; height:200px;float:left; margin-bottom:15px;}
+#virtual{width:200px; height:200px; float: left;color:}
+#ubuntu{width:200px; height:150px; float: left;}
+.clear{clear: both;}
+#titrel{width:30%;margin:0 auto;}
+#titrel>h1{color:white; font-family:'Playfair Display', serif;font-size:60px; letter-spacing:5px; text-decoration:underline;float:right;display:block;margin:40px 15% 40px 0;}
+.linux-texte{font-family: 'Roboto', sans-serif;font-size:16px;padding-left: 400px;padding-top:25px; color:white;overflow: hidden;}
+.bordure{margin:0px 0px;width:100%; border-bottom: white solid;}
+
+ 
+ /*on essaye de rendre le tout responsive*/
+
+  @media  (min-width: 601px) and (max-width: 1250px)
+  {
+    #titrer{width:75%; margin-left: auto;margin-right: auto ;}
+    #titrel{width:60%;margin:0 auto;}
+    @keyframes chargement1 {
+      from {
+        display:none;
+        margin-left: 1%; 
+      }
+      to {
+          display:inline-block;
+        margin-left: 40%;
+      }
+    }
+    @keyframes chargement2 {
+      from {
+        display:none;
+        margin-left: 1%; 
+      }
+    
+      to {
+          display:inline-block;
+          margin-left: 40%;
+      }
+    }
+    @keyframes chargement3 {
+      from {
+        display:none;
+        margin-left: 2%; 
+      }
+    
+      to {
+          display:inline-block;
+        margin-left: 40%;
+      }
+    }
+  }
+  @media all and (max-width: 750px) {
+    .tedroite{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:none;color:white;}
+    .imgauche{float:none;margin-bottom:15px;width:45%;position:relative;z-index: 1;}
+    .tegauche{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:none;padding-top:50px;color:white;}
+    .imdroite{float:none;margin-bottom:15px;width:45%;position:relative;z-index: 1;}
+    .imdroite img{float:none;}
+    #mémo:hover {width: 300px; height:172.683px;}
+  * .A{display:none;animation-name: chargement1;}
+  .B{display:none;;animation-name: chargement2;}
+  .C{display:none;;animation-name: chargement3;}
+  #développement p{color:white;font-size:100%;font-family: 'Playfair Display', serif;}
+  #infrastructure p{color:white;font-size:100%;font-family: 'Playfair Display', serif;}
+  }
+  @media (min-width: 500px) and (max-width: 600px)
+  {
+    
+    #titrer{width:100%;margin:0 auto;}
+    #titrer{width:100%; margin-left: auto;margin-right: auto ;}
+    #titrel{width:100%;margin:0 auto;}
+    
+
+    
+  }
+
+  @media all and (max-width: 499px)
+  {
+    
+    #titrer{width:100%;margin:0 auto;}
+    #titrer{width:100%; margin-left: auto;margin-right: auto ;}
+    #titrel{width:100%;margin:0 auto;}
+    #développement{float:none;width:50%;}
+    #infrastructure{width:50%;float:none;}
+  }
+    
+
+
+
+
+@media  (min-width: 1250px) and (max-width: 1500px)
+{
+
+  #titrer{width:100%;margin:0 auto;}
+  #titrer{width:100%; margin-left: auto;margin-right: auto ;}
+  #titrel{width:100%;margin:0 auto;}
+  
+}
