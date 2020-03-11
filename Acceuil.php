@@ -37,7 +37,7 @@
                 <div class='clear'>
                 </div>
                 <! -- le bouton pour télécharger le cv --> 
-                <a class="btn btn-primary btn-outline-light" href="" download="cv.pdf" >Télécharger</a>
+                <a class="btn btn-primary bouton" href="" download="cv.pdf" >Télécharger</a>
                  </div>
                  <div class="separation">
                      

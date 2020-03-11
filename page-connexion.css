@@ -18,3 +18,5 @@
 #formulaire{width:80%;margin:0 auto;}
 .form-control{border: solid 5px orange;}
 .prenom{text-align:center;}
+.bouton{color:orange;border:2px solid orange; font-weight: bold; background-color:#074685}
+.bouton:hover{color:#074685;border:2px solid orange; font-weight: bold; background-color:orange}

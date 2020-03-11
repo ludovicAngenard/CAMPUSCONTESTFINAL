@@ -32,8 +32,8 @@
             <div id='formulaire'>
             <form> <! --formulaire -->
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email :</label>
-    <div class="col-sm-10">
+    <label for="inputEmail3" class="col-12 col-lg-3 col-form-label">Email :</label>
+    <div class="col-12 col-lg-9">
       <input type="email" class="form-control" id="inputEmail3">
     </div>
   </div>
@@ -42,11 +42,11 @@
             </div>
 
   <div class="form-group row">
-    <label  class="col-2 col-form-label">Nom :</label>
+    <label  class="col-12 col-lg-3 col-form-label">Nom :</label>
     <div class="col">
       <input  class="form-control" >
     </div>
-    <label  class="col col-form-label prenom">Prénom : </label>
+    <label  class="col-12  col-lg-3 col-form-label prenom">Prénom : </label>
     <div class="col">
       <input  class="form-control" >
     </div>
@@ -56,8 +56,8 @@
             </div>
 
   <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Mot de passe :</label>
-    <div class="col-sm-10">
+    <label for="inputPassword3" class="col-lg-3 col-form-label">Mot de passe :</label>
+    <div class="col-12 col-lg-9">
       <input type="password" class="form-control" id="inputPassword3">
     </div>
   </div>
@@ -66,8 +66,8 @@
             </div>
 
   <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Confirmez le mot de passe :</label>
-    <div class="col-sm-10">
+    <label for="inputPassword3" class="col-lg-3 col-form-label">Confirmez le mot de passe :</label>
+    <div class="col-12 col-lg-9">
       <input type="password" class="form-control" id="inputPassword3">
     </div>
   </div>
@@ -92,9 +92,9 @@
             </div>
 
   <div class="form-group row centrer">
-    <div class="col-sm-10 centrer">
+    <div class="col-sm-9 centrer">
     <! --bouton envoyer-->
-      <button type="submit" class="btn btn btn-primary btn-outline-light ">Se connecter</button>
+      <button type="submit" class="btn btn-primary  bouton">Se connecter</button>
     </div>
   </div>
 </form> <! --fin du formulaire -->

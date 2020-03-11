@@ -31,6 +31,9 @@
 #cv img{width: 15em; height: 20em; border:solid 10px orange;}
 #cv{width:50%;margin-right:auto;margin-left:auto;text-align:center;}
 #cv a{margin-top:20px;}
+/* bouton télécharger*/
+.bouton{color:orange;border:2px solid orange; font-weight: bold; background-color:#074685}
+.bouton:hover{color:#074685;border:2px solid orange; font-weight: bold; background-color:orange}
 
 
 

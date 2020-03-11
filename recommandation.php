@@ -44,7 +44,7 @@
                         <input class="form-control" id="exampleFormControlInput1"  placeholder="Insérez le nom de votre poste ici." >
                     </div>
                     <! -- bouton envoyer -->
-                    <a class="btn btn-primary btn-outline-light" href="#" role="button">Envoyer</a>
+                    <a class="btn btn-primary bouton" href="#" role="button">Envoyer</a>
                     </form><! -- fin du formulaire -->
                 </div>
 

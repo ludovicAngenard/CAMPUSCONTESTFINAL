@@ -15,6 +15,7 @@
 .clear{clear:both;}
 /*tout ce que contient la div formulaire */
 #formulaire{width:70%; margin-left:auto;margin-right:auto;text-align:center;}
+.form-control{border: solid 5px orange;}
 /*les textes du formulaire*/
 .recom{color:white;font-family: 'Open Sans', sans-serif;}
 
@@ -24,3 +25,6 @@
 .liste-avis{width:50%;color:white;margin:0 auto;}
 .liste-avis >h1 {font-size: 20px; margin-left: 3%;}
 .liste-avis >p {font-size: 12px; background-color:#eeeeee;border: 2px solid orange;margin-left:20px; color:black;}
+/* bouton envoyar*/
+.bouton{color:orange;border:2px solid orange; font-weight: bold; background-color:#074685}
+.bouton:hover{color:#074685;border:2px solid orange; font-weight: bold; background-color:orange}
