@@ -3,40 +3,18 @@
 	<head>
 		<meta charset="utf8">
         <title> first page</title>
+        <! -- lien bootstrap --> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="page-connection.css">
+        <! -- lien avec le fichier css Acceuil.css --> 
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="page-connexion.css">
+        <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 	<body>
   <! --haut de page -->
-  <header>
-            <div id="banderole">
-                <div id='alignetexte'>
-                    <p>Ludovic Angenard - Campus Academy </p>
-                </div>
-                <! -- barre du menu contenant les onglets -->
-            <div id='menu2'>
-                <ul id='menu'>
-                <li class="menu">
-                        <a href="page-connection.php">Connexion</a> 
-                        </li>
-                        <li class="menu">
-                        <a href="Acceuil.php">Acceuil</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href="Python.php">Compétences</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href='Expériences.php'>Expériences Professionnelles</a>
-                        </li>
-                        <li class="menu ">
-                            <a href='recommandation.php'>Recommandation</a>
-                        </li>
-                    </ul>
-            </div>
-</div>
-        </header>  <! --fin de haut de page -->
+  <?php Include 'header.php';?>  <! --fin de haut de page -->
 
         <div id='fond'>  <! --div avec le fond en dégradé  -->
             <div id='contenu'> <! --div avec le fond bleu uni -->
@@ -104,7 +82,7 @@
       <! --checkbox pour le rgpd -->
         <input class="form-check-input" type="checkbox" id="gridCheck1">
         <label class="form-check-label" for="gridCheck1">
-          J'accepete que mes informations soient réutiliser pour me contacter et que mon nom et prénom peuvent être afficher sur le site.
+          J'accepte que mes informations soient réutiliser pour me contacter et que mon nom et prénom peuvent être afficher sur le site.
         </label>
       </div>
     </div>

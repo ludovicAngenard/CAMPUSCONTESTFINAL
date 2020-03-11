@@ -3,43 +3,19 @@
 	<head>
 		<meta charset="utf8">
         <title> Ludovic Angenard</title>
-        <! -- lien bootstrap --> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <! -- lien avec le fichier css Acceuil.css --> 
-        <link rel="stylesheet" href="Acceuil.css">
         <! -- lien pour avoirs des polices plus jolies sur google --> 
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <! -- lien bootstrap --> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <! -- lien avec le fichier css Acceuil.css --> 
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="Acceuil.css">
+        <link rel="stylesheet" href="responsive.css">
 	</head>
 	<body>
     <! -- haut de page --> 
-        <header> 
-            <div id="banderole">
-                <div id='alignetexte'>
-                    <p>Ludovic Angenard - Campus Academy </p>
-                </div>
-                <! -- barre de menu contenant les onglets --> 
-            <div id='menu2'>
-                <ul id='menu'>
-                <li class="menu">
-                        <a href="page-connection.php">Connexion</a> 
-                        </li>
-                        <li class="menu">
-                        <a href="Acceuil.php">Acceuil</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href="Python.php">Compétences</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href='Expériences.php'>Expériences Professionnelles</a>
-                        </li>
-                        <li class="menu ">
-                            <a href='recommandation.php'>Recommandation</a>
-                        </li>
-                    </ul>
-            </div>
-</div>
-        </header> <! -- fin du haut de page --> 
+        <?php Include 'header.php';?> <! -- fin du haut de page --> 
         <! -- div contenant le fond avec le dégradé --> 
         <div id='fond'>
         <! -- div contenant le fond bleu uni  --> 
@@ -69,13 +45,14 @@
            
 
            <div id='objectif'>
-           <p>Objectifs<p>
+           <p>Objectifs
+           </p>
            <p>Dans un premier temps, je souhaite trouver un stage en tant que développeur back/end de préférence mais je reste ouvert à d'autre proposeition. Ce stage se déroulera idéalement du 13 mai au 30 aout. Ensuite, ce stage à pour optique de déboucher sur une alternance de 2 ans minimum à 4 ans maximum. 
+           </p>
            </div>
             <div class="separation">
                 </div>
            
-
             </div>
             
             <div class="separation">

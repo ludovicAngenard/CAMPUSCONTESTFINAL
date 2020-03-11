@@ -2,40 +2,18 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf8">
-		<title> first page</title>
+        <title> first page</title>
+        <! -- lien bootstrap --> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="Python.css">
+        <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	</head>
 	<body>
     <! -- haut de page -->
-    <header>
-            <div id="banderole">
-                <div id='alignetexte'>
-                    <p>Ludovic Angenard - Campus Academy </p>
-                </div>
-        
-            <div id='menu2'>
-                <ul id='menu'>
-                <li class="menu">
-                        <a href="page-connection.php">Connexion</a> 
-                        </li>
-                        <li class="menu">
-                        <a href="Acceuil.php">Acceuil</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href="Python.php">Compétences</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href='Expériences.php'>Expériences Professionnelles</a>
-                        </li>
-                        <li class="menu ">
-                            <a href='recommandation.php'>Recommandation</a>
-                        </li>
-                    </ul>
-            </div>
-</div>
-        </header> <! -- fin de haut de page -->
+    <?php Include 'header.php';?> <! -- fin du haut de page --> 
 
 
         <! -- div contenant le fond en dégradé -->
@@ -67,7 +45,7 @@
                     </div>
                     <div class='clear'>
                 </div>
-                </div>
+            </div>
                 <! -- compétence d'infra -->
                 <div id='infrastructure'>
                     <div class='colonne'>
@@ -115,7 +93,7 @@
             <! -- premier paragraphe -->
 
             <div class="imgauche">
-                <img src="Memory.png" alt="image mémory" id='mémo'>
+                <a href= 'projet.php?id=1'><img src="Memory.png" alt="image mémory" id='mémo'></a>
             </div>
             <div class="tedroite">
             
@@ -129,7 +107,7 @@
             <! -- second paragraphe-->
 
             <div class="imdroite">
-                <img src="menu_chasse_taupe.png" alt="image chasse taupe"  id='chasse-taupe'>
+            <a href= 'projet.php?id=2'><img src="menu_chasse_taupe.png" alt="image chasse taupe"  id='chasse-taupe'></a>
             </div>
             <div class='tegauche'>
                 <p>Le Chasse Démons: Le jeu est une variante du chasse taupe. Ici vous n'écrasez pas des taupes mais vous incarnez DIEU afin de repousser les démons hors du paradis à l'aide d'un marteau. Vous avez trente secondes pour en repousser le plus possible ! Lors de ce laps de temps, vous devrez surmonter trois phases! A chaque phase passée le jeu s'accélère et le nombre de démons augmente! Attention, lors de la dernière phase à ne pas toucher un ange. A la fin de la partie, vous devez inscrire votre pseudo et peut être que grâce a votre score il sera 
@@ -140,7 +118,7 @@
             <! -- troisième paragraphe -->
 
             <div class='imgauche'>
-                <img src="menu_pac_man.png" alt="image pac man"  id='pac'>
+            <a href= 'projet.php?id=3'><img src="menu_pac_man.png" alt="image pac man"  id='pac'></a>
             </div>
             <div class="tedroite">
                 <p id=>Le Pac-Man: Le jeu est, comme son nom l'indique, une revisitation du jeu Pac-Man créé en 1980. Vous dirigez Pac-Man a l'aide des flèches directionnelles et vous devez le guider afin qu'il mange toutes les billes jaunes. Attention à ne pas vous faire attrapper par les fantômes! Cela provoquerait la fin de la partie! Au fil de la partie, vous gagnez de la monnaie fictive, des points et ainsi des niveaux pour débloquer des déguisements pour embellir votre Pac-Man! A partir du niveau huit la difficulté augmente grâce à l'ajout de quatre
@@ -149,7 +127,7 @@
             <div class="clear"></div>
             <! -- dernier paragraphe -->
             <div class='imdroite'>
-                <img src="pfc.png" alt="image pierre feuille ciseaux"  id='pfc'>
+            <a href= 'projet.php?id=4'><img src="pfc.png" alt="image pierre feuille ciseaux"  id='pfc'></a>
             </div>
             <div class="tegauche">
                 <p >Le Pierre, Feuille, Ciseaux: Le jeu est tout simplement un pierre, feuille, ciseaux avec quelques ajouts afin de pimenter les parties. Il se joue en trois manches gagnantes. Il y'a un mode facile où vous jouez contre un robot qui chosit son élément aléatoirement. Au contraire, dans le mode difficile, le robot choisit son élément en fonction de quelques règles prédéfinies. Enfin entre chaque partie, vous pouvez choisir un avatar et si vous n'en choisissez pas vous aurez 

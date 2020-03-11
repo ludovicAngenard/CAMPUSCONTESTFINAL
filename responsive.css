@@ -1,0 +1,64 @@
+@media  (min-width: 1142px) and (max-width: 1380px){
+    #alignetexte{padding-top:100px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+    /*texte dans la baderole du heut */
+    #alignetexte p{color:white; font-size:300%;font-family: 'Playfair Display', serif;}
+    
+}
+@media  (min-width: 0px) and (max-width: 1142px){
+    #alignetexte{padding-top:110px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+    #alignetexte p{color:white; font-size:250%;font-family: 'Playfair Display', serif;}
+    /*navbar*/
+    /* les onglets */
+    #menu li>a{display:inline-block;text-decoration: none; color:white;font-family: 'Playfair Display', serif; padding-right:30px;padding-left: 30px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 10px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+    /*quand l'utilisateur passe la souris sur un onglet*/
+    #menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:30px;padding-left: 30px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+
+}
+@media  (min-width: 862px) and (max-width: 1042px){
+     /*navbar*/
+    /* les onglets */
+    #menu li>a{display:inline-block;text-decoration: none; font-size:60%;color:white;font-family: 'Playfair Display', serif; padding-right:30px;padding-left: 30px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 10px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+    /*quand l'utilisateur passe la souris sur un onglet*/
+    #menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:30px;padding-left: 30px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+     /* titre de ma présentation  */
+     #présentation h2{font-size: 200%;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
+}
+@media  (min-width: 722px) and (max-width: 862px){
+    #alignetexte{padding-top:120px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+    #alignetexte p{color:white; font-size:200%;font-family: 'Playfair Display', serif;}
+    /*navbar*/
+    /* les onglets */
+    #menu li>a{display:inline-block;text-decoration: none; font-size:60%;color:white;font-family: 'Playfair Display', serif; padding-right:20px;padding-left: 20px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 10px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+    /*quand l'utilisateur passe la souris sur un onglet*/
+    #menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:20px;padding-left: 20px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+    /* titre de ma présentation  */
+    #présentation h2{font-size: 200%;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
+    /* photo d'identité supprimé */
+    #photopres img{display: none;}
+}
+@media  (min-width: 566px) and (max-width: 722px){
+    #alignetexte{padding-top:130px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+    #alignetexte p{color:white; font-size:150%;font-family: 'Playfair Display', serif;}
+    /*navbar*/
+    /* les onglets */
+    #menu li>a{display:inline-block;text-decoration: none; font-size:60%;color:white;font-family: 'Playfair Display', serif; padding-right:10px;padding-left: 10px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 5px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+    /*quand l'utilisateur passe la souris sur un onglet*/
+    #menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:10px;padding-left: 10px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+     /* titre de ma présentation  */
+     #présentation h2{font-size: 200%;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
+      /* photo d'identité supprimé */
+    #photopres img{display: none;}
+}
+@media  (min-width: 0px) and (max-width: 566px){
+    #alignetexte{padding-top:130px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
+    #alignetexte p{color:white; font-size:150%;font-family: 'Playfair Display', serif;}
+    /*navbar*/
+    /* les onglets */
+    #menu li>a{display:inline-block;text-decoration: none; font-size:50%;color:white;font-family: 'Playfair Display', serif; padding-right:10px;padding-left: 10px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin:0 5px;margin-bottom:15px;border-radius: 5px; background-color: #007CE1;}
+    /*quand l'utilisateur passe la souris sur un onglet*/
+    #menu li>a:hover{text-decoration: none;font-family: 'Playfair Display', serif;padding-right:10px;padding-left: 10px; border: solid 2px white; padding-top:3px; padding-bottom:3px; margin: 0 10px;margin-bottom:15px;border-radius: 5px; background-color: white;color: #007CE1;text-decoration:underline;} 
+     /* titre de ma présentation  */
+     #présentation h2{font-size: 200%;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
+      /* photo d'identité supprimé */
+    #photopres img{display: none;}
+}

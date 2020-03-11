@@ -4,40 +4,18 @@
 	<head>
 		<meta charset="utf8">
         <title> first page</title>
+        <! -- lien bootstrap --> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <! -- lien avec le fichier css recommandation.css --> 
+        <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="recommandation.css">
+        <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 	<body>
     <! -- haut de page -->
-        <header>
-            <div id="banderole">
-                <div id='alignetexte'>
-                    <p>Ludovic Angenard - Campus Academy </p>
-                </div>
-                <! -- menu avec les onglets  -->
-            <div id='menu2'>
-                <ul id='menu'>
-                <li class="menu">
-                        <a href="page-connection.php">Connexion</a> 
-                        </li>
-                        <li class="menu">
-                        <a href="Acceuil.php">Acceuil</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href="Python.php">Compétences</a> 
-                        </li>
-                        <li class="menu ">
-                            <a href='Expériences.php'>Expériences Professionnelles</a>
-                        </li>
-                        <li class="menu ">
-                            <a href='recommandation.php'>Recommandation</a>
-                        </li>
-                    </ul>
-            </div>
-</div>
-        </header><! -- fin de haut de page -->
+    <?php Include 'header.php';?><! -- fin de haut de page -->
 
         <! -- fond avec le dégradé -->
         <div id='fond'> 
