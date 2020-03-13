@@ -1,5 +1,3 @@
-
-
 /*bas de page */
 #bas{background-color:black;height:200px;}
 #bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
@@ -9,21 +7,3 @@
 #réseausoc{width:25px;height:25px;}
 #logoc{width:80px;height:80px;float:right;margin-top:-120px; opacity: 0.5;}
 #réseausoc{width:25px;height:25px;}
-/*fonds classiques*/
-#fond{background: linear-gradient(to bottom right, white, #6171ff);padding-top: 50px;}
-.contenu{margin:0 auto; width:70%;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; background-color:#074685;padding-top: 100px;}
-/* description du projet*/
-#taille{width: 50%; margin:0 auto;}
-#description{width:100%; text-align: center; color:white;}
-#description p{margin-bottom: 0px;}
-
-.separation{height: 50px; opacity:0;}
-.intercalaire {width:100%;background-color:#074685;  box-shadow: 0px -3px 15px #074685,0px 2px 15px #074685;}
-.titre{width:20%; margin-left: auto;margin-right: auto ; color:white; text-align:center;font-family: 'Playfair Display', serif;}
-.carousel{border:20px solid orange;}
-.titre2{width:50%; margin-left: auto;margin-right: auto ; color:white; text-align:center;}
-.liste-avis{width:50%;color:white;}
-.liste-avis >h1 {font-size: 20px; margin-left: 3%;}
-.liste-avis >p {font-size: 12px; background-color:#eeeeee;border: 2px solid orange;margin-left:20px; color:black;}
-#contienavis{overflow: scroll;height: 400px;}
-.form-control{border: 5px solid orange;}

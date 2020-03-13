@@ -8,6 +8,7 @@
         <! -- lien avec le fichier css expérience.css --> 
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="Expériences.css">
+        <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
         <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 	</head>
@@ -15,39 +16,40 @@
     <! --haut de page -->
     <?php Include 'header.php';?>  <! --fin de haut de page -->
 
-        <div id='fond'>  <! --fond avec le dégradé -->
+        <div class='FondDégradé'>  <! --fond avec le dégradé -->
 
-            <div class="separation">
-            </div>
 
-            <div id='contenu'>  <! --fond avec le bleu uni -->
-                
+            <div class='NappeDeContenu'>  <! --fond avec le bleu uni -->
+            
             <! --titre de la page -->
-                <div id="titre">
-                <h1>Expériences Professionelles</h1>
+                <div class=" CentrerTexte">
+                <h1 class='PoliceTitre'>Expériences Professionelles</h1>
                 </div>
+                <div class="separation">
+                </div>
+                
                 <! --texte contenant le premier travail  -->
-                <div id='texte'>
-                    <h2>Trieur ROYER</h2> </br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                <div class='TexteGauche PaddingGauche'>
+                    <h2 class='PoliceIntermédiaire'>Trieur ROYER</h2> </br>
+                    <p class='PoliceTexte'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
                          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
                          upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. du travail</p>
                 </div>
                 <! --images illustrant mes propos -->
-                <div id='image'>
+                <div class='ImageDroite PaddingDroite ContainerPetit'>
                     <img src='expéditeur.jpg' alt='expéditeur' id="expéditeur">
                     <img src='entrepot.jpg' alt='entrepôt' id="entrepôt">
                     <img src='préparateur-commande.jpg' alt='préparateur de commande' id="commande">
                 </div>
                 <div class='clear'></div>
                 <! --deuxième travail-->
-                <div id="deuxièmepartie">
-                    <h2>Ceuilleur de tomates  EARL DE LA DOHINIERE</h2> </br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu
+                <div  class='TexteGauche PaddingGauche'>
+                    <h2 class='PoliceIntermédiaire'>Ceuilleur de tomates  EARL DE LA DOHINIERE</h2> </br>
+                    <p class='PoliceTexte'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu
                         r sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <! --une image pour illustrer  -->
-                <div id='partieimage2'>
+                <div class='ImageDroite PaddingDroite ContainerPetit'>
                     <img src='tomate.jpg' alt='rends de tomates' id="tomate">
                 </div>
 

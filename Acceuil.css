@@ -9,31 +9,6 @@
 /*logo du linkedin*/
 #réseausoc{width:25px;height:25px;}
 
-/* est là uniquement pour créer des espace entre les div*/
-.separation{height: 50px; opacity:0;}
-/*est appelé a chaque fois qu'il faut supprimer des float */
-.clear{clear:both;}
-/*contenu sur fond bleu uni*/
-#contenu{width:80%; margin:0 auto;background-color:#074685;margin-bottom:-17px; box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685;}
-/*fond avec le dégradé*/
-#fond{background: linear-gradient(to bottom right, white, #6171ff);padding-top: 50px;}
-
-/*la présentation avec la photo et le texte ainsi que le titre */
-#présentation{width: 60%;background-color:#074685;float:right;}
-#présentation p{text-align: center;color:white;font-family: 'Open Sans', sans-serif;font-size:16px;width:50%;width:100%;padding-top:50px;}
-#présentation h2{font-size: 300%;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
-#photopres img{width:8em;height:10em; margin-top: 160px;margin-left:10%; border:solid 10px orange}
-#photopres {width:70%; text-align:center;}
-/*le paragraphes objectifs avec le titre le paragraphe*/
-#objectif p{font-size: 60px;text-decoration:underline;text-align: center;color:white;font-family: 'Playfair Display', serif;width:50%;width:100%;Padding-top:50px;}
-#objectif p+p{text-align: center;color:white;font-family: 'Open Sans', sans-serif;font-size:16px;width:100%;text-decoration:none;}
-/*div du cv plus le bouton*/
-#cv img{width: 15em; height: 20em; border:solid 10px orange;}
-#cv{width:50%;margin-right:auto;margin-left:auto;text-align:center;}
-#cv a{margin-top:20px;}
-/* bouton télécharger*/
-.bouton{color:orange;border:2px solid orange; font-weight: bold; background-color:#074685}
-.bouton:hover{color:#074685;border:2px solid orange; font-weight: bold; background-color:orange}
 
 
 

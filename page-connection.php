@@ -8,6 +8,7 @@
         <! -- lien avec le fichier css Acceuil.css --> 
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="page-connexion.css">
+        <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
         <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -16,25 +17,25 @@
   <! --haut de page -->
   <?php Include 'header.php';?>  <! --fin de haut de page -->
 
-        <div id='fond'>  <! --div avec le fond en dégradé  -->
-            <div id='contenu'> <! --div avec le fond bleu uni -->
+        <div class='FondDégradé'>  <! --div avec le fond en dégradé  -->
+            <div class='NappeDeContenu'> <! --div avec le fond bleu uni -->
 
                 <div class="separation">
                 </div>
                 <! --titre-->
-            <div id='haut'>
-            <p id='co'>Connexion</p>
+            <div class='CentrerTexte'>
+            <p class='PoliceTitre'>Connexion</p>
             </div>  
 
             <div class="separation">
             </div>
             <! --div contenant le formulaire -->
-            <div id='formulaire'>
+            <div class='Container'>
             <form> <! --formulaire -->
   <div class="form-group row">
-    <label for="inputEmail3" class="col-12 col-lg-3 col-form-label">Email :</label>
+    <label for="inputEmail3" class="col-12 col-lg-3 col-form-label PoliceTexte" >Email :</label>
     <div class="col-12 col-lg-9">
-      <input type="email" class="form-control" id="inputEmail3">
+      <input type="email" class="form-control BordureFormulaire" id="inputEmail3">
     </div>
   </div>
 
@@ -42,13 +43,13 @@
             </div>
 
   <div class="form-group row">
-    <label  class="col-12 col-lg-3 col-form-label">Nom :</label>
+    <label  class="col-12 col-lg-3 col-form-label PoliceTexte">Nom :</label>
     <div class="col">
-      <input  class="form-control" >
+      <input  class="form-control BordureFormulaire" >
     </div>
-    <label  class="col-12  col-lg-3 col-form-label prenom">Prénom : </label>
+    <label  class="col-12  col-lg-3 col-form-label CentrerTexte PoliceTexte ">Prénom : </label>
     <div class="col">
-      <input  class="form-control" >
+      <input  class="form-control BordureFormulaire" >
     </div>
   </div>
 
@@ -56,9 +57,9 @@
             </div>
 
   <div class="form-group row">
-    <label for="inputPassword3" class="col-lg-3 col-form-label">Mot de passe :</label>
+    <label for="inputPassword3" class="col-lg-3 col-form-label PoliceTexte">Mot de passe :</label>
     <div class="col-12 col-lg-9">
-      <input type="password" class="form-control" id="inputPassword3">
+      <input type="password" class="form-control BordureFormulaire" id="inputPassword3" required>
     </div>
   </div>
 
@@ -66,9 +67,9 @@
             </div>
 
   <div class="form-group row">
-    <label for="inputPassword3" class="col-lg-3 col-form-label">Confirmez le mot de passe :</label>
+    <label for="inputPassword3" class="col-lg-3 col-form-label PoliceTexte ">Confirmez le mot de passe :</label>
     <div class="col-12 col-lg-9">
-      <input type="password" class="form-control" id="inputPassword3">
+      <input type="password" class="form-control BordureFormulaire" id="inputPassword3" required>
     </div>
   </div>
 
@@ -80,8 +81,8 @@
     <div class="col-sm-10">
       <div class="form-check">
       <! --checkbox pour le rgpd -->
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
+        <input class="form-check-input" type="checkbox" id="gridCheck1" required>
+        <label class="form-check-label PoliceTexte" for="gridCheck1">
           J'accepte que mes informations soient réutiliser pour me contacter et que mon nom et prénom peuvent être afficher sur le site.
         </label>
       </div>
@@ -92,9 +93,9 @@
             </div>
 
   <div class="form-group row centrer">
-    <div class="col-sm-9 centrer">
+    <div class="col-sm-9 CentrerTexte">
     <! --bouton envoyer-->
-      <button type="submit" class="btn btn-primary  bouton">Se connecter</button>
+      <button type="submit" class="btn btn-primary  bouton  ">Se connecter</button>
     </div>
   </div>
 </form> <! --fin du formulaire -->

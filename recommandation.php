@@ -9,6 +9,7 @@
         <! -- lien avec le fichier css recommandation.css --> 
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="recommandation.css">
+        <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
         <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -18,31 +19,34 @@
     <?php Include 'header.php';?><! -- fin de haut de page -->
 
         <! -- fond avec le dégradé -->
-        <div id='fond'> 
-
-            <div class="separation">
-            </div> 
+        <div class='FondDégradé'> 
             <! -- contenu de la page recommandation sur fond bleu uni-->
-            <div id='contenu'>
+            <div class='NappeDeContenu'>
                 <div class="separation">
                 </div> 
                 <! -- div contenant le formulaire -->
-                <div id='formulaire'>
+                <div class='ContainerProche CentrerTexte'>
                 <! -- formulaire -->
                     <form>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class='recom'>Votre recommandation :</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Vous devez vous connecter pour insérez votre recommandation ici."></textarea>
+                            <label for="exampleFormControlTextarea1" class='PoliceTexte'>Votre recommandation :</label>
+                            <textarea class="form-control BordureFormulaire" id="exampleFormControlTextarea1" rows="5" placeholder="Vous devez vous connecter pour insérez votre recommandation ici."></textarea>
                         </div>
+                        <div class="separation">
+                        </div> 
                     </form>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1" class='recom'>Votre Entreprise :</label>
-                        <input class="form-control" id="exampleFormControlInput1"  placeholder="Insérez le nom de votre entreprise ici." >
+                        <label for="exampleFormControlInput1" class='PoliceTexte'>Votre Entreprise :</label>
+                        <input class="form-control BordureFormulaire" id="exampleFormControlInput1"  placeholder="Insérez le nom de votre entreprise ici." >
                     </div>
+                    <div class="separation">
+                    </div> 
                     <div class="form-group">
-                        <label for="exampleFormControlInput1" class='recom'>Votre poste :</label>
-                        <input class="form-control" id="exampleFormControlInput1"  placeholder="Insérez le nom de votre poste ici." >
+                        <label for="exampleFormControlInput1" class='PoliceTexte'>Votre poste :</label>
+                        <input class="form-control BordureFormulaire" id="exampleFormControlInput1"  placeholder="Insérez le nom de votre poste ici." >
                     </div>
+                    <div class="separation">
+                    </div> 
                     <! -- bouton envoyer -->
                     <a class="btn btn-primary bouton" href="#" role="button">Envoyer</a>
                     </form><! -- fin du formulaire -->
@@ -51,11 +55,11 @@
                 <div class="separation">
                 </div> 
                 <! -- div contenant toutes les recommandations-->
-                <div id='touteslesrecom'>
+                <div  class='Scroll Container'>
                 <! -- une recommandation -->
-                    <div class='liste-avis'>
-                        <h1>Nom Prénom travail à Entreprise en tant que poste</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    <div class='liste-avis Container '>
+                        <h1 class='PoliceTexte PaddingGauche '>Nom Prénom travail à Entreprise en tant que poste</h1>
+                        <p class='BordureFormulaire PaddingGauche PaddingDroite'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                             ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptat</p>
                     </div>
                 </div>
