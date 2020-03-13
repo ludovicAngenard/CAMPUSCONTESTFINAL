@@ -1,0 +1,328 @@
+.FondDégradé{
+    background: linear-gradient(to bottom right, white, #6171ff);
+    height:100%;
+    padding-top: 50px;
+}
+.NappeDeContenu{
+    width:80%;
+    margin:0 auto;
+    box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; 
+    background-color:#074685;
+}
+.bouton{
+    color:orange;
+    border:2px solid orange;
+    font-weight: bold;
+    background-color:#074685;
+}
+.bouton:hover{
+    color:#074685;
+    border:2px solid orange;
+    font-weight: bold;
+    background-color:orange;
+}
+.PoliceTexte{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+}
+.PoliceIntermédiaire{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2em;
+}
+.PoliceTitre{
+    color:white;
+    font-family:'Playfair Display', serif;
+    font-size:4.3em;
+    letter-spacing:5px;
+    text-decoration:underline;
+}
+.PoliceTaille-3{
+    font-size:2.5em;
+}
+.Soulignement{
+    text-decoration: underline;
+}
+.Soulignement:hover{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+.BordureFormulaire{
+    border: solid 5px orange;
+}
+.BordureImage{
+    border:solid 10px orange;
+}
+.CarréCompétences{
+    float:left;
+    width:190px;
+    height:190px;
+    margin-bottom:20px;
+    margin-right:30px;
+    background-color: #074685;
+    text-align:center;
+}
+.CarréCompétences:hover{
+    float:left;
+    width:190px;
+    height:190px;
+    margin-bottom:20px;
+    margin-right:30px;
+    background-color: orange;
+    text-align:center;
+}
+.BanderoleTitre{
+    height: 10em;
+    width:100%;
+    background-color:#074685; 
+    box-shadow: 0px -3px 15px #074685,0px 2px 15px #074685;
+}
+.BanderoleTitre h2{
+ display:inline-block;
+ padding-top: 1%;
+}
+.BanderoleTitre  img {
+    margin-right: 5%;
+}
+
+.PaddingDroite{
+    margin-right:2em;
+}
+.PaddingGauche{
+    margin-left:2em;
+}
+.ImageGauche{
+    float:left;
+    margin-bottom:15px;
+}
+.ImageDroite{
+    float:right;
+    margin-bottom:15px;
+}
+.TexteGauche{
+    width:60%;
+    float:left;
+    padding-top:50px;
+}
+.TexteDroite{
+    width:60%;
+    float:right;
+    padding-top:50px;
+}
+.CentrerTexte{
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+.separation{
+    height: 50px;
+    opacity:0;
+}
+.Container{
+    width:80%;
+    margin:0 auto;
+}
+.clear{
+    clear:both;
+}
+.ContainerPetit{
+    width: 30%;
+}
+.ContainerProche{
+    width:60%;
+    margin:0 auto;
+}
+.TexteDroiteEtale{
+    width:70%;
+    float:right;
+    padding-top:50px;
+}
+/* le début de la page compétences avec l'ensemble des compétences triées par famille */
+#développement{
+    float:left;
+    width:50%;
+}
+#infrastructure{
+    width:50%;
+    float:right;
+}
+.colonne{
+    background-color:#074685;
+    width: 90%;
+    text-align: center;
+}
+.carousel{
+    border:20px solid orange;
+}
+.Scroll{
+    overflow: scroll;
+    height: 350px;
+}
+.liste-avis{
+    color:white;
+}
+.liste-avis >h1 {
+    font-size: 20px;
+    margin-left: 3%;
+}
+.liste-avis >p {
+    font-size: 12px; 
+    background-color:#eeeeee;
+    color:black;
+}
+/*les tailles des images */
+#moi{
+    width:8em;
+    height:10em; 
+}
+#cv img{
+    width: 15em;
+    height: 20em; 
+}
+#logoP{
+    width: 9em;
+    height: auto;
+}
+/*ensemble des logos des compétences*/
+#linux{
+    width:6em;
+    height:7.8em;
+    margin:40px 0px 40px 10%;
+}
+#python{
+    width:6em;
+    height:6em;
+    margin:40px 0px 40px 0px;
+}
+#logol{
+    width:6em;
+    height:7.8em;
+}
+#réseaux{
+    width:11em;
+    height: 6em;
+    margin:30px 0px 40px 10%;
+}
+#php{
+    width:8em;
+    height:6em;
+    margin:40px 0px 40px 10%;
+}
+#html5{
+    width:7em;
+    height:7.5em;
+    margin:40px 0px 40px 10%;
+}
+#css3{
+    width:5.5em;
+    height:7.5em;
+    margin:40px 0px 40px 10%;
+}
+#sql{
+    width:9em;
+    height:6em;
+    margin:40px 0px 40px 10%;
+}
+#mémo{
+    width: 300px; 
+    height:172.683px;
+}
+/*quand la souris passe sur l'image du mémory*/
+
+#mémo:hover{
+    width:400px;
+    height:230.244px;
+}
+#chasse-taupe{
+    width:300px;
+    height:219.4px;
+}
+/*quand la souris passe sur l'image du chasse taupe*/
+#chasse-taupe:hover{
+    width:400px;
+    height:292.32px;
+}
+/*quand la souris passe sur l'image du pierre feuille ciseaux*/
+#pfc:hover{
+    width:400px;
+    height:212.53px;
+}
+#pfc{width:300px;
+    height:159.4px;
+}
+#pac{
+    width:300px;
+    height:261.43px;
+}
+/*quand la souris passe sur l'image du pacman*/
+#pac:hover{
+    width:400px;
+    height:348.57px;
+}
+#routeur{
+    width:200px;
+    height: 111.96px;
+}
+#ethernet{
+    width: 250px; 
+    height:80.19px;
+    float:left;padding-top:50px;}
+#fibre{
+    width: 250px;
+    height:58.88px;
+    padding-top:70px;
+}
+#wifi{
+    width:250px;
+    height:160.36px;
+    padding-top:40px;
+    margin-bottom:15px;
+}
+
+.pc{
+    width: 150px;
+    height:110.5px;
+    margin-top:-60px;
+ }
+/*contenu de la section linux */
+#terminal{
+    width:200px;
+    height:200px
+}
+#virtual{
+    width:200px;
+    height:200px
+}
+#ubuntu{
+    width:200px;
+    height:150px;
+}
+/*image expériences pro */
+
+#tomate{
+    width:300px;
+    height:201.4px;
+    float:right;
+}
+#entrepôt{
+    width:150px;
+    height:100px;
+    float:right;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+#expéditeur{
+    width:150px;
+    height:101.6px;
+    float:right;
+}
+#commande{
+    width:305px;
+    height:203.57px;
+    float:right;
+    margin-bottom:50px;
+}
+
+
