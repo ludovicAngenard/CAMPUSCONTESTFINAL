@@ -1,4 +1,3 @@
-/*bas de page */
 #bas{background-color:black;height:200px;}
 #bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
 #bas>div li {color:white;font-size:12px; font-family:'Playfair Display', serif;list-style-type: none;padding-bottom: 15px;}

@@ -20,7 +20,7 @@ $nb=CountNumberOfPhoto($id);
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css projet.css --> 
         <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="projet.css">
+        <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
         <link rel="stylesheet" href="responsive.css">
 		
