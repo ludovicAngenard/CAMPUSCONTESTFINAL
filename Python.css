@@ -18,9 +18,9 @@
 /*animation des images */
 .chargement{height:18.48px;width:100px;}
 .clear{clear:both;}
-.A{padding-top:110px;animation-duration: 3s;animation-name: chargement1;animation-iteration-count: infinite;}
-.B{padding-top:100px;animation-duration: 0.25s;animation-name: chargement2;animation-iteration-count: infinite;}
-.C{padding-top:100px;animation-duration: 2s;animation-name: chargement3;animation-iteration-count: infinite;}
+.A{animation-duration: 3s;animation-name: chargement1;animation-iteration-count: infinite;}
+.B{animation-duration: 0.25s;animation-name: chargement2;animation-iteration-count: infinite;}
+.C{animation-duration: 2s;animation-name: chargement3;animation-iteration-count: infinite;}
 @keyframes chargement1 {
   from {
     display:none;

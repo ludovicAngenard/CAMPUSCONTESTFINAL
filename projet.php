@@ -85,7 +85,7 @@ $nb=CountNumberOfPhoto($id);
                 <form>
                     <div class="form-group ">
                     <label for="exampleFormControlTextarea1" class='PoliceTexte' >Votre Avis sur le projet :<?php echo $slide['titre']?> </label>
-                    <textarea class="form-control col col-lg-20" id="exampleFormControlTextarea1" rows="4" placeholder="Vous devez vous connecter pour insérez votre avis ici". ></textarea>
+                    <textarea class="form-control BordureFormulaire col col-lg-20" id="exampleFormControlTextarea1" rows="4" placeholder="Vous devez vous connecter pour insérez votre avis ici". ></textarea>
                     </div>
                     <div class="separation">
                     </div>

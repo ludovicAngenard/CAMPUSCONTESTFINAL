@@ -27,9 +27,10 @@
                     <div class='colonne'>
                         <p class='PoliceTitre PoliceTaille-3'>Développement</p>
                     </div>
+                    <div class='Container-90'>
                     <! -- lien menant a la section python -->
                     <a href="#titre">
-                    <div class='CarréCompétences'>
+                    <div class='CarréCompétences '>
                         <img src="Python.png" alt=" python" id='python' >
                     </div>
                     <a>
@@ -45,6 +46,7 @@
                     <div class='CarréCompétences'>
                         <img src="sql.png" alt="sql" id='sql' >
                     </div>
+                    </div>
                     
             </div>
                 <! -- compétence d'infra -->
@@ -52,6 +54,7 @@
                     <div class='colonne'>
                         <p class='PoliceTitre PoliceTaille-3'>Infrastructure</p>
                     </div>
+                    <div class='ContainerProche'>
                     <! -- lien menant à la section réseaux -->
                     <a href="#titrer">
                     <div class='CarréCompétences'>
@@ -64,6 +67,7 @@
                         <img src='linux.png' alt='logo linux' id="linux">
                     </div>
                     </a>
+                    </div>
                     </div>
             <div class='clear'>
                 </div>
