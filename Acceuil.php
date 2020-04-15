@@ -31,7 +31,7 @@
                         </p>
             
                 </div >
-                <img src="LudovicAngenard.png"  class='BordureImage ImageGauche' id='moi' alt="Photo d'identité">
+                <img src="imageSite/LudovicAngenard.png"  class='BordureImage ImageGauche' id='moi' alt="Photo d'identité">
                 </div>
                 <div class='clear'>
                 </div>
@@ -39,7 +39,7 @@
                 </div>
                 <! -- mon cv en miniature --> 
                 <div id='cv' class='CentrerTexte'> 
-                    <img src="cv.png"  class='BordureImage' alt="CV">
+                    <img src="imageSite/cv.png"  class='BordureImage' alt="CV">
                 <div class='clear'>
                 </div>
                 <div class="separation">   
@@ -85,9 +85,9 @@
                     07 82 64 27 86
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='Linkedin.png' alt='linkedin' id="réseausoc"></a>
+                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='imageSite/Linkedin.png' alt='linkedin' id="réseausoc"></a>
                 </li>
-                <img src='Campus_academy.png' alt='logo_campus'id="logoc">
+                <img src='imageSite/Campus_academy.png' alt='logo_campus'id="logoc">
             </div>
             </ul>
         </div>

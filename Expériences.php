@@ -38,9 +38,9 @@
                 </div>
                 <! --images illustrant mes propos -->
                 <div class='ImageDroite PaddingDroite ContainerPetit'>
-                    <img src='expéditeur.jpg' alt='expéditeur' id="expéditeur">
-                    <img src='entrepot.jpg' alt='entrepôt' id="entrepôt">
-                    <img src='préparateur-commande.jpg' alt='préparateur de commande' id="commande">
+                    <img src='imageSite/expéditeur.jpg' alt='expéditeur' id="expéditeur">
+                    <img src='imageSite/entrepot.jpg' alt='entrepôt' id="entrepôt">
+                    <img src='imageSite/préparateur-commande.jpg' alt='préparateur de commande' id="commande">
                 </div>
                 <div class='clear'></div>
                 <! --deuxième travail-->
@@ -51,7 +51,7 @@
                 </div>
                 <! --une image pour illustrer  -->
                 <div class='ImageDroite PaddingDroite '>
-                    <img src='tomate.jpg' alt='rends de tomates' id="tomate">
+                    <img src='imageSite/tomate.jpg' alt='rends de tomates' id="tomate">
                 </div>
 
                 <div class='clear'></div>

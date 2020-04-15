@@ -2,7 +2,7 @@
 html,body{margin:0; padding:0;} 
 
 /*image du haut*/
-#banderole{height:300px;background-image: url(tech-test.jpg); background-repeat: no-repeat;  background-position: center; margin-bottom:0px;}
+#banderole{height:300px;background-image: url(imageSite/tech-test.jpg); background-repeat: no-repeat;  background-position: center; margin-bottom:0px;}
 
 #alignetexte{padding-top:90px;text-align:center; height:200px;width:80%; margin:0 auto;overflow: hidden;}
 #alignetexte p{color:white; font-size:400%;font-family: 'Playfair Display', serif;}

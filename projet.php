@@ -166,9 +166,9 @@ $nb=CountNumberOfPhoto($id);
                     07 82 64 27 86
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='Linkedin.png' alt='linkedin' id="réseausoc"></a>
+                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='imageSite/Linkedin.png' alt='linkedin' id="réseausoc"></a>
                 </li>
-                <img src='Campus_academy.png' alt='logo_campus'id="logoc">
+                <img src='imageSite/Campus_academy.png' alt='logo_campus'id="logoc">
             </div>
             </ul>
         </div>
