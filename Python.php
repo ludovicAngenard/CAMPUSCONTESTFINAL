@@ -8,19 +8,19 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
 	<head>
 		<meta charset="utf8">
         <title> first page</title>
-        <! -- lien bootstrap --> 
+        <! -- lien bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="Python.css">   
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/Python.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
 	</head>
 	<body>
     <! -- haut de page -->
-    <?php Include 'header.php';?> <! -- fin du haut de page --> 
+    <?php Include 'header.php';?> <! -- fin du haut de page -->
 
 
         <! -- div contenant le fond en dégradé -->
@@ -52,7 +52,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                         <img src="imageSite/sql.png" alt="sql" id='sql' >
                     </div>
                     </div>
-                    
+
             </div>
                 <! -- compétence d'infra -->
                 <div id='infrastructure'>
@@ -80,8 +80,8 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 </div>
             </div>
             <! -- cette div permet de mettre en avant le titre de la section  -->
-            <div class= BanderoleTitre > 
-            
+            <div class= BanderoleTitre >
+
                 <div class=' CentrerTexte'>
                 <! -- logo de la section-->
                     <img src="imageSite/Python.png" alt="logo python" id='logoP' >
@@ -91,7 +91,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             <div class="clear"></div>
         </div>
         <div class="separation">
-        
+
         </div> <! -- fin de la banderole contenant le titre et le logo de la section -->
 
         <! -- contenu de la section python sous fond bleu uni -->
@@ -107,10 +107,10 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <a href= 'projet.php?id=1' ><img src="imageSite/Memory.png" alt="image mémory" id='mémo'></a>
             </div>
             <div class="TexteDroite PaddingDroite PoliceTexte">
-            
+
             <! -- description du projet avec un lien menant vers la page projet qui s'adapte en fonction du projet choisit -->
 
-                <p> Le memory: Le jeu reprend les règles simples d'un memory classique. Vous avez que deux secondes pour mémoriser l'emplacement de vingt cartes et ainsi retrouver les cartes par paire en moins de trente secondes ! Si vous êtes bon, vous pouvez gagner 4 trophées ! Le premier s'obtient quand on gagne une partie, le second quand on gagne en moins de vingt secondes, le troisième quand on gagne 
+                <p> Le memory: Le jeu reprend les règles simples d'un memory classique. Vous avez que deux secondes pour mémoriser l'emplacement de vingt cartes et ainsi retrouver les cartes par paire en moins de trente secondes ! Si vous êtes bon, vous pouvez gagner 4 trophées ! Le premier s'obtient quand on gagne une partie, le second quand on gagne en moins de vingt secondes, le troisième quand on gagne
                 en moins de 15 coups et enfin le quatrième quand on gagne dix parties! <a href='projet.php?id=1' class='Soulignement PoliceTexte'>En savoir plus </a></p>
             </div>
             <div class="clear"></div>
@@ -121,7 +121,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             <a href= 'projet.php?id=2'><img src="imageSite/menu_chasse_taupe.png" alt="image chasse taupe"  id='chasse-taupe'></a>
             </div>
             <div class='TexteGauche PaddingGauche PoliceTexte'>
-                <p>Le Chasse Démons: Le jeu est une variante du chasse taupe. Ici vous n'écrasez pas des taupes mais vous incarnez DIEU afin de repousser les démons hors du paradis à l'aide d'un marteau. Vous avez trente secondes pour en repousser le plus possible ! Lors de ce laps de temps, vous devrez surmonter trois phases! A chaque phase passée le jeu s'accélère et le nombre de démons augmente! Attention, lors de la dernière phase à ne pas toucher un ange. A la fin de la partie, vous devez inscrire votre pseudo et peut être que grâce a votre score il sera 
+                <p>Le Chasse Démons: Le jeu est une variante du chasse taupe. Ici vous n'écrasez pas des taupes mais vous incarnez DIEU afin de repousser les démons hors du paradis à l'aide d'un marteau. Vous avez trente secondes pour en repousser le plus possible ! Lors de ce laps de temps, vous devrez surmonter trois phases! A chaque phase passée le jeu s'accélère et le nombre de démons augmente! Attention, lors de la dernière phase à ne pas toucher un ange. A la fin de la partie, vous devez inscrire votre pseudo et peut être que grâce a votre score il sera
                 sur le podium qui sait. <a href='projet.php?id=2' class='Soulignement PoliceTexte' >En savoir plus </a> </p>
             </div>
             <div class="clear"></div>
@@ -141,19 +141,19 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             <a href= 'projet.php?id=4'><img src="imageSite/pfc.png" alt="image pierre feuille ciseaux"  id='pfc'></a>
             </div>
             <div class="TexteGauche PaddingGauche PoliceTexte">
-                <p >Le Pierre, Feuille, Ciseaux: Le jeu est tout simplement un pierre, feuille, ciseaux avec quelques ajouts afin de pimenter les parties. Il se joue en trois manches gagnantes. Il y'a un mode facile où vous jouez contre un robot qui chosit son élément aléatoirement. Au contraire, dans le mode difficile, le robot choisit son élément en fonction de quelques règles prédéfinies. Enfin entre chaque partie, vous pouvez choisir un avatar et si vous n'en choisissez pas vous aurez 
+                <p >Le Pierre, Feuille, Ciseaux: Le jeu est tout simplement un pierre, feuille, ciseaux avec quelques ajouts afin de pimenter les parties. Il se joue en trois manches gagnantes. Il y'a un mode facile où vous jouez contre un robot qui chosit son élément aléatoirement. Au contraire, dans le mode difficile, le robot choisit son élément en fonction de quelques règles prédéfinies. Enfin entre chaque partie, vous pouvez choisir un avatar et si vous n'en choisissez pas vous aurez
                 l'avatar anonyme. <a href='projet.php?id=4' class='Soulignement PoliceTexte'>En savoir plus </a></p>
             </div>
             <div class="clear"></div>
         </div>
-    
+
 
 
         <div class="separation"> <! -- div séparant le contenu python et la banderole réseaux -->
 
         </div>
         <! -- banderole avec le logo et le titre de la section réseaux -->
-        <div class= BanderoleTitre > 
+        <div class= BanderoleTitre >
             <div class='CentrerTexte'>
                 <img src='imageSite/routeur.png' alt=' routeur' id="routeur">
                 <h2 class='PoliceTitre '>Réseaux</h2>
@@ -165,7 +165,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
         </div>
         <! -- début du contenu réseaux-->
         <div class="NappeDeContenu">
-            
+
         <! -- premier paragraphe -->
             <div class='action'>
                 <p class='PoliceTexte CentrerTexte'>J'ai des aptitudes théoriques sur les adresses IPv4/v6, mac, réseaux et gateway. Mais aussi sur , les 7 couches du modèle OSI ainsi que les protocoles TCPip et UDP, la structure des paquets et les différents câblages (de la fibre multiplexée aux différentes catégories de câbles éthernet).  </p>
@@ -206,7 +206,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             </div>
 
             <! -- banderole contenant le logo et le titre de la section linux -->
-            <div class= BanderoleTitre > 
+            <div class= BanderoleTitre >
                 <div class='CentrerTexte'>
                 <img src='imageSite/linux.png' alt='logo linux' class='CentrerTexte'id="logol">
                 <h2 class='PoliceTitre'>Linux</h2>
@@ -224,9 +224,9 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <! -- premier paragraphe -->
                 <div class="bordure vir">
                     <img src='imageSite/Virtualbox.png' alt='logo virtual box' class='PaddingGauche'id="virtual">
-                    
+
                         <p class='PoliceTexte TexteDroite PaddingDroite'> Pour installer linux il y'a plusieurs mannières possible de le faire. En effet, on peut l'installer en double boot (avoir un autre os + linux dans le meme ordinateur) en simple boot (n'avoir que linux comme os) ou en machine virtuelle (émuler linux) par exemple. La machine virtuelle m'a paru être la meilleure solution car on peut avoir plusieurs distributions sur un meme pc et on peut faire des crash test aussi.</p>
-                    
+
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
@@ -235,9 +235,9 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <! -- deuxième paragraphe -->
                 <div class="bordure ubu">
                     <img src='imageSite/Ubuntu.png' alt='logo ubuntu' class='PaddingGauche' id="ubuntu">
-                    
+
                         <p class='PoliceTexte TexteDroite PaddingDroite'>La distribution linux ubuntu qui est une dérivé de débian m'a permi de bien débuter car on n'est pas perdu grâce à l'interface graphique mais on peut quand même gagner en liberter par rapport à windows ou mac os par exemple et s'amuser en lignes de commandes. Même si on est plus limité sur ubuntu que sur une autre distribution comme fédora ou débian, celle-ci permet de bien commencer à apprendre. </p>
-                    
+
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
@@ -246,18 +246,18 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <! -- troisième paragraphe  -->
                 <div >
                     <img src='imageSite/terminal.png' alt='logo terminal' class='PaddingGauche' id="terminal">
-                    
+
                     <p class='PoliceTexte TexteDroite PaddingDroite'>Grâce à linux, on a accès a beaucoup plus de choses car linux est open-source. Et c'est grâce au terminal que l'on peut pleinement exploiter le potentiel de linux. Créer une base de données grâce à mysql en lignes de commandes est désormais possible. </p>
-                    
+
                     <div class="clear"></div>
-            </div> 
+            </div>
                 <div class="clear"></div>
                 <div class="separation">
             </div>
             </div> <! -- fin du contenu de linux -->
             <div class="separation">
             </div>
-    </div> 
+    </div>
     <! -- bas de pages  -->
 	<footer>
         <div id='bas' >

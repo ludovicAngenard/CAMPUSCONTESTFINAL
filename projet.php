@@ -42,10 +42,10 @@ $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateu
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css projet.css -->
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="Page-css-pour-le-portfolio.css">
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="css/responsive.css">
 	</head>
 	<body>
     <! -- scripte js venant de bootstrap pour que le diaporama fonctionne -->
