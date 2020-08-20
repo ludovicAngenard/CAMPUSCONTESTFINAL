@@ -21,7 +21,7 @@ session_start();
 
 $id=isset($_GET['id'])?$_GET['id']: 0;
 Include 'route.php';
-Include 'utilisateur.php';
+Include 'utilisateurSql.php';
 $conn = new PDO("mysql:host=localhost:3308;dbname=portfoliov3",'root','');
 $instance= DBConnection::getInstance();
 if('POST' == $_SERVER['REQUEST_METHOD'] ) {
@@ -257,26 +257,6 @@ if('POST' == $_SERVER['REQUEST_METHOD'] ) {
         </div>
         <! --bas de page -->
 
-        <footer>
-        <div id='bas'>
-            <div>
-            <ul>
-                <li>
-                    CONTACT:
-                </li>
-                <li>
-                    ludovic.angenard@students.campus.academy
-                </li>
-                <li>
-                    07 82 64 27 86
-                </li>
-                <li>
-                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='Linkedin.png' alt='linkedin' id="réseausoc"></a>
-                </li>
-                <img src='Campus_academy.png' alt='logo_campus'id="logoc">
-            </div>
-            </ul>
-        </div>
-    </footer>
+      <?php Include 'footer.html'?>
 	</body>
 </html>

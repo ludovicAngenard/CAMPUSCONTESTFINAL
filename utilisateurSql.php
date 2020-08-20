@@ -1,9 +1,9 @@
 <?php
-class utilisateur{
+class utilisateurSql{
     public $nom;
     public $prénom;
     public $mdp;
- 
+
     public function __construct($datas=[])
     {
        var_dump($datas);
@@ -19,12 +19,12 @@ class utilisateur{
                 }
             }
         }
-       
-        
+
+
         }
     public function isValid(array $datas)
     {
-        
+
     }
 
     public function getNom_Utilisateur() {

@@ -35,10 +35,10 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                     <div class='Container-90'>
                     <! -- lien menant a la section python -->
                     <a href="#titre">
-                    <div class='CarréCompétences '>
-                        <img src="imageSite/Python.png" alt=" python" id='python' >
-                    </div>
-                    <a>
+                        <div class='CarréCompétences '>
+                            <img src="imageSite/Python.png" alt="python" id='python' >
+                        </div>
+                    </a>
                     <div class='CarréCompétences'>
                         <img src="imageSite/php.png" alt="php" id='php' >
                     </div>
@@ -61,16 +61,16 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                     </div>
                     <div class='ContainerProche'>
                     <! -- lien menant à la section réseaux -->
-                    <a href="#titrer">
-                    <div class='CarréCompétences'>
-                        <img src='imageSite/routeur.png' alt=' routeur' id="réseaux">
-                    </div>
+                    <a href="#titreR">
+                        <div class='CarréCompétences'>
+                            <img src='imageSite/routeur.png' alt=' routeur' id="réseaux">
+                        </div>
                     </a>
                     <! -- lien menant à la section linux -->
-                    <a href="#titrel">
-                    <div class='CarréCompétences'>
-                        <img src='imageSite/linux.png' alt='logo linux' id="linux">
-                    </div>
+                    <a href="#titreL">
+                        <div class='CarréCompétences'>
+                            <img src='imageSite/linux.png' alt='logo linux' id="linux">
+                        </div>
                     </a>
                     </div>
                     </div>
@@ -82,11 +82,11 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             <! -- cette div permet de mettre en avant le titre de la section  -->
             <div class= BanderoleTitre >
 
-                <div class=' CentrerTexte'>
+                <div class='CentrerTexte' >
                 <! -- logo de la section-->
                     <img src="imageSite/Python.png" alt="logo python" id='logoP' >
                     <! -- titre de la section -->
-                    <h2 class='PoliceTitre '>Python</h2>
+                    <h2 class='PoliceTitre ' id='titre'>Python</h2>
                 </div>
             <div class="clear"></div>
         </div>
@@ -156,7 +156,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
         <div class= BanderoleTitre >
             <div class='CentrerTexte'>
                 <img src='imageSite/routeur.png' alt=' routeur' id="routeur">
-                <h2 class='PoliceTitre '>Réseaux</h2>
+                <h2 class='PoliceTitre ' id='titreR'>Réseaux</h2>
             </div>
             <div class="clear"></div>
         </div> <! -- fin de la banderole -->
@@ -209,7 +209,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
             <div class= BanderoleTitre >
                 <div class='CentrerTexte'>
                 <img src='imageSite/linux.png' alt='logo linux' class='CentrerTexte'id="logol">
-                <h2 class='PoliceTitre'>Linux</h2>
+                <h2 class='PoliceTitre' id='titreL'>Linux</h2>
             </div>
             <div class="clear"></div>
 

@@ -2,7 +2,6 @@
 session_start();
 Include 'route.php';
 $id=isset($_GET['id'])?$_GET['id']: 0;
-
 Include 'RecommandationSql.php';
 $instance= DBConnection::getInstance();
 $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateur, utilisateur.Prenom_Utilisateur FROM recommandation INNER JOIN utilisateur ON recommandation.IdUtilisateur_Utilisateur=utilisateur.IdUtilisateur_Utilisateur",)->fetchAll(PDO::FETCH_CLASS, RecommandationSql::class);
@@ -99,7 +98,6 @@ if(isset($_SESSION) && !empty($_SESSION)){
                             <?php echo $result->getContenuRecommandation_Recommandation()?>
                         </p>
                     </div>
-
                 <?php } ?>
 
                 </div>
@@ -111,25 +109,6 @@ if(isset($_SESSION) && !empty($_SESSION)){
         </div><! -- fin du dégradé -->
 
         <! -- bas de page -->
-        <footer>
-        <div id='bas' >
-            <div>
-            <ul>
-                <li>CONTACT:
-                </li>
-                <li>
-                    ludovic.angenard@students.campus.academy
-                </li>
-                <li>
-                    07 82 64 27 86
-                </li>
-                <li>
-                    <a href='https://www.linkedin.com/in/ludovic-angenard-37743719a/' target="_blank"><img src='imageSite/Linkedin.png' alt='linkedin' id="réseausoc"></a>
-                </li>
-                <img src='imageSite/Campus_academy.png' alt='logo_campus'id="logoc">
-            </div>
-            </ul>
-        </div>
-    </footer>
+        <?php Include 'footer.html'?>
 	</body>
 </html>
