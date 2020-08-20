@@ -48,11 +48,11 @@ if('POST' == $_SERVER['REQUEST_METHOD'] ) {
                 $prepare = $instance->getConnection()->prepare($requête);
                 $execute = $prepare->execute(array('email'=>$email,));
                 $utilisateurInfo = $prepare->fetch();
-                $_SESSION['id'] = $utilisateurInfo['idUtilisateur_Utilisateur'];
-                $_SESSION['nom'] = $nom;
-                $_SESSION['prenom'] = $prenom;
-                $_SESSION['mail'] = $email;
-                $_SESSION['mdp'] = $mdp;
+                $_SESSION['id'] = $utilisateurInfo["IdUtilisateur_Utilisateur"];
+                $_SESSION['nom'] = $utilisateurInfo["Nom_Utilisateur"];
+                $_SESSION['prenom'] = $utilisateurInfo["Prenom_Utilisateur"];
+                $_SESSION['mail'] = $utilisateurInfo["Email_Utilisateur"];
+                $_SESSION['mdp'] = $utilisateurInfo["MotDePasse_Utilisateur"];
                 header("Location: Acceuil.php");
               }else{
                 $message ="Votre compte n'a pas été créé.";
@@ -81,12 +81,12 @@ if('POST' == $_SERVER['REQUEST_METHOD'] ) {
       $execute = $prepare->execute(array('email'=>$email, 'mdp'=>$mdp));
       $utilisateurExiste = $prepare->rowCount();
       if ( $utilisateurExiste == 1){
-        $utilisateurIfo= $prepare->fetch();
-        $_SESSION['id'] = $utilisateurIfo["IdUtilisateur_Utilisateur"];
-        $_SESSION['nom'] = $utilisateurIfo["Nom_Utilisateur"];
-        $_SESSION['prenom'] = $utilisateurIfo["Prenom_Utilisateur"];
-        $_SESSION['mail'] = $utilisateurIfo["Email_Utilisateur"];
-        $_SESSION['mdp'] = $utilisateurIfo["MotDePasse_Utilisateur"];
+        $utilisateurInfo= $prepare->fetch();
+        $_SESSION['id'] = $utilisateurInfo["IdUtilisateur_Utilisateur"];
+        $_SESSION['nom'] = $utilisateurInfo["Nom_Utilisateur"];
+        $_SESSION['prenom'] = $utilisateurInfo["Prenom_Utilisateur"];
+        $_SESSION['mail'] = $utilisateurInfo["Email_Utilisateur"];
+        $_SESSION['mdp'] = $utilisateurInfo["MotDePasse_Utilisateur"];
         header("Location: Acceuil.php");
       } else{
         $message = "votre adresse mail ou votre mot de passe est incorrecte";
