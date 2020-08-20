@@ -6,7 +6,7 @@
 .NappeDeContenu{
     width:80%;
     margin:0 auto;
-    box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; 
+    box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685;
     background-color:#074685;
 }
 .bouton{
@@ -76,7 +76,7 @@
 .BanderoleTitre{
     height: 10em;
     width:100%;
-    background-color:#074685; 
+    background-color:#074685;
     box-shadow: 0px -3px 15px #074685,0px 2px 15px #074685;
 }
 .BanderoleTitre h2{
@@ -161,7 +161,7 @@
     border:20px solid orange;
 }
 .Scroll{
-    overflow: scroll;
+    overflow-y: scroll;
     height: 350px;
 }
 .liste-avis{
@@ -172,7 +172,7 @@
     margin-left: 3%;
 }
 .liste-avis >p {
-    font-size: 12px; 
+    font-size: 12px;
     background-color:#eeeeee;
     color:black;
 }
@@ -180,7 +180,7 @@
 
 #cv img{
     width: 15em;
-    height: 20em; 
+    height: 20em;
 }
 #logoP{
     width: 9em;
@@ -224,7 +224,7 @@
     margin:40px 0px 40px 10%;
 }
 #mémo{
-    width: 300px; 
+    width: 300px;
     height:172.683px;
 }
 /*quand la souris passe sur l'image du mémory*/
@@ -261,7 +261,7 @@
 }
 
 #ethernet{
-    width: 250px; 
+    width: 250px;
     height:80.19px;
     float:left;padding-top:50px;}
 #fibre{
@@ -312,5 +312,8 @@
     float:right;
     margin-bottom:50px;
 }
-
+#front-end{
+    width: 305px;
+    height: auto;
+}
 

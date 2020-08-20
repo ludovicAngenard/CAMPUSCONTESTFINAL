@@ -1,3 +1,8 @@
+<?php
+session_start();
+Include 'route.php';
+$id=isset($_GET['id'])?$_GET['id']: 0;
+?>
 <!doctype html>
 <html lang="fr">
 	<head>
