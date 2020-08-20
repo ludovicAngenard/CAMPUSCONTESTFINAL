@@ -1,7 +1,5 @@
 <?php
 session_start();
-Include 'route.php';
-$id=isset($_GET['id'])?$_GET['id']: 0;
 ?>
 <!doctype html>
 <html lang="fr">
@@ -50,7 +48,7 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <div class="separation">
                 </div>
                 <! -- le bouton pour télécharger le cv -->
-                <a class="btn btn-primary bouton " href="" download="cv.pdf" >Télécharger</a>
+                <a class="btn btn-primary bouton " href="cv.pdf" download >Télécharger</a>
                  </div>
                  <div class="separation">
                 </div>

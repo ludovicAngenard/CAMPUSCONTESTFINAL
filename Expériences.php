@@ -36,9 +36,11 @@ $id=isset($_GET['id'])?$_GET['id']: 0;
                 <! --texte contenant le stage -->
                 <div class='TexteGauche PaddingGauche'>
                     <h2 class='PoliceIntermédiaire'>Stagiaire développeur front-end chez UNEEK</h2> </br>
-                    <p class='PoliceTexte'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
-                         upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. du travail</p>
+                    <p class='PoliceTexte'> Lors de ce stage, ma mission était de créer un sélecteur d'icônes qui devait s'intégrer facilement par tous les développeurs de l'entreprise dans diverses projets.
+                        Pour ce faire, j'ai travaillé principalement sur le langage javascript avec sa bibliothèque jQuery et le framework Bootstrap.
+                        J'ai également travaillé sur le framework Ruby on rails du langage Ruby afin de tester l'application.
+                    </p>
+                    <a href="descriptionExperience.php" class="PoliceTexte Soulignement"> En savoir plus !</a>
                 </div>
                 <! --images illustrant mes propos -->
                 <div class='ImageDroite PaddingDroite '>
