@@ -55,7 +55,7 @@ session_start();
                         envoyer des icônes dans un chat de façon intuitive.
                         </p>
                         <p class='PoliceTexte'>
-                        Ensuite, est venue les différentes étapes de la construction de ma mission.
+                        Ensuite, est venues les différentes étapes de la construction de ma mission.
                         En commencant par le maquettage pour se mettre d'accord sur l'apparence
                         du sélecteur d'icônes. Vient ensuite la reproduction visuelle de la maquette
                         en HTML/CSS pour avoir le rendu exacte sur pc du sélecteur. Puis, l'ajout du
@@ -64,9 +64,9 @@ session_start();
                         du sélecteur est terminée, cependant elle n'est pas testée. En effet, il fallait créer
                         une application sur ruby on rails afin de tester si le sélecteur fonctionnait correctement
                         et pour tester comment mettre le sélecteur d'icônes en Node modules. Enfin, il
-                        fallait créer toute la documentation pour que le sélecteur d'icônes puisse être bien installer.
+                        fallait créer toute la documentation pour que le sélecteur d'icônes puisse être bien installé.
                         Néanmoins, par manque de temps, je n’ai pas pu élaborer le service qui devait accompagner
-                        le sélecteur d'icônes, mais j'ai commencer les recherches pour faire gagner du temps au
+                        le sélecteur d'icônes, mais j'ai commencé les recherches pour faire gagner du temps au
                         reste de l'équipe.
                         </p>
                         <p class='PoliceTexte'>
