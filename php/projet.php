@@ -36,7 +36,7 @@ $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateu
 <html lang="fr">
 	<head>
 		<meta charset="utf8">
-		<title> first page</title>
+		<title>Ludovic Angenard</title>
 
         <! -- lien bootstrap -->
 
