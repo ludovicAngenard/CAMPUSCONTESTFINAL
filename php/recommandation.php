@@ -1,8 +1,8 @@
 <?php
 session_start();
-Include 'route.php';
+Include 'classe bdd/route.php';
 $id=isset($_GET['id'])?$_GET['id']: 0;
-Include 'RecommandationSql.php';
+Include 'classe bdd/RecommandationSql.php';
 $instance= DBConnection::getInstance();
 $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateur, utilisateur.Prenom_Utilisateur FROM recommandation INNER JOIN utilisateur ON recommandation.IdUtilisateur_Utilisateur=utilisateur.IdUtilisateur_Utilisateur",)->fetchAll(PDO::FETCH_CLASS, RecommandationSql::class);
 $execute=false ;
@@ -33,10 +33,10 @@ if(isset($_SESSION) && !empty($_SESSION)){
         <! -- lien bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css recommandation.css -->
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="../css/responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
@@ -109,6 +109,6 @@ if(isset($_SESSION) && !empty($_SESSION)){
         </div><! -- fin du dégradé -->
 
         <! -- bas de page -->
-        <?php Include 'footer.html'?>
+        <?php Include 'footer.php'?>
 	</body>
 </html>

@@ -1,8 +1,8 @@
 <?php
 session_start();
-Include 'route.php';
-Include 'ProjetSql.php';
-Include 'AvisSql.php';
+Include 'classe bdd/route.php';
+Include 'classe bdd/ProjetSql.php';
+Include 'classe bdd/AvisSql.php';
 //appel le fichier fonctionphp
 Include 'fonction.php';
 //on récuperd l'id grâce au lien
@@ -42,10 +42,10 @@ $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateu
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css projet.css -->
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="../css/responsive.css">
 	</head>
 	<body>
         <! -- scripte js venant de bootstrap pour que le diaporama fonctionne -->
@@ -76,13 +76,13 @@ $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateu
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                <! -- prmière image du projet -->
-                    <img src="image_slide/<?php echo $slide['image']['photo1'];?>.png" class="d-block w-100" alt="<?php echo $slide['photo1'];?>">
+                <! -- première image du projet -->
+                    <img src="../image_slide/<?php echo $slide['image']['photo1'];?>.png" class="d-block w-100" alt="<?php echo $slide['photo1'];?>">
                 </div>
-                <! -- affuchage des autres images selon leur nombre  -->
+                <! -- affichage des autres images selon leur nombre  -->
                 <?php for ($i = 2; $i <= $nb; $i++) {?>
                 <div class="carousel-item ">
-                <img src="image_slide/<?php echo $slide['image']['photo'.$i];?>.png" class="d-block w-100" alt="<?php echo $slide['photo'.$i];?>">
+                <img src="../image_slide/<?php echo $slide['image']['photo'.$i];?>.png" class="d-block w-100" alt="<?php echo $slide['photo'.$i];?>">
                 </div>
                 <?php } ?>
 
@@ -180,6 +180,6 @@ $results=$instance->getConnection()->query("SELECT *, utilisateur.Nom_Utilisateu
                 </div>
         </div>
         <! --Bas de pages -->
-        <?php Include 'footer.html'?>
+        <?php Include 'footer.php'?>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-$datas = require('image_slide/donnees.php');
+$datas = require('../image_slide/donnees.php');
 
 function findOneById($id){
     global $datas;

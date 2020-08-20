@@ -9,10 +9,10 @@ session_start();
         <! -- lien bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css Acceuil.css -->
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="../css/responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
@@ -20,8 +20,8 @@ session_start();
   <?php
 
 $id=isset($_GET['id'])?$_GET['id']: 0;
-Include 'route.php';
-Include 'utilisateurSql.php';
+Include 'classe bdd/route.php';
+Include 'classe bdd/utilisateurSql.php';
 $conn = new PDO("mysql:host=localhost:3308;dbname=portfoliov3",'root','');
 $instance= DBConnection::getInstance();
 if('POST' == $_SERVER['REQUEST_METHOD'] ) {
@@ -256,7 +256,6 @@ if('POST' == $_SERVER['REQUEST_METHOD'] ) {
 
         </div>
         <! --bas de page -->
-
-      <?php Include 'footer.html'?>
+      <?php Include 'footer.php';?>
 	</body>
 </html>

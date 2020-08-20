@@ -12,10 +12,10 @@ session_start();
         <! -- lien bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <! -- lien avec le fichier css Acceuil.css -->
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/Page-css-pour-le-portfolio.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/Page-css-pour-le-portfolio.css">
+        <link rel="stylesheet" href="../css/responsive.css">
 	</head>
 	<body>
     <! -- haut de page -->
@@ -93,7 +93,7 @@ session_start();
                         remercier pour ça.
                         </p>
                         <div class="separation"></div>
-                        <a class="btn btn-primary bouton " href="document divers/rapportStage.pdf" download>Télécharger le rapport complet</a>
+                        <a class="btn btn-primary bouton " href="../document divers/rapportStage.pdf" download>Télécharger le rapport complet</a>
                         <div class="separation"></div>
                     </div>
 
@@ -102,6 +102,6 @@ session_start();
             <div class="separation"></div>
         </div>
         <! -- bas de page -->
-        <?php Include 'footer.html'?>
+        <?php Include 'footer.php'?>
 	</body>
 </html>
